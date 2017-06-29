@@ -8,7 +8,7 @@ public class Protected {
 	}
 	
 	public static void setName(String name) {
-		if (name != null && name.length() >= 3 && name.length() <= 12) {
+		if (name != null && name.length() >= 3 && name.length() <= 16) {
 			p_name = name;
 		}
 	}
